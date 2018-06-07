@@ -3,7 +3,7 @@ How to have the custom time dimensions as Fiscal week and month in Google Data S
 
 - Fiscal weeks and months don’t exist as a time dimension in Data Studio.
 
-- To have the custom time dimension , we have to create view in BigQuery to join the data table with the dim date table 
+- To have the custom time dimension , we have to create view in BigQuery to join the data table with the [dim_date](https://drive.google.com/open?id=1X1OqY_XK_q3AFaSwB9y_XDSphMEB2IXa1wQE7jiRfx0) table 
    ( which contains fiscal week, fiscal month, fiscal quarter, fiscal year).
 - Then you can actually add the join tables in the Google Data Studio to have custom time dimension.
 
